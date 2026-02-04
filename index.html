@@ -298,7 +298,7 @@
           `ADDITIONAL NOTES\n──────────────────────────────\n${formData.message || 'No additional notes.'}\n\n` +
           `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nSent via Studio Salon Website\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
         );
-        window.location.href = `mailto:emilycaird1983@gmail.com?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:jordanch14@gmail.com?subject=${subject}&body=${body}`;
         setFormStatus('success');
         setTimeout(() => { setBookingOpen(false); setFormStatus(''); setFormData({ name: '', email: '', phone: '', service: '', date: '', time: '', message: '' }); }, 2000);
       };
@@ -623,7 +623,7 @@
                 <div className="grid md:grid-cols-3 gap-8 mt-16 pt-12 border-t border-white/10">
                   <div><p className="text-white/30 text-xs uppercase tracking-widest mb-2">Location</p><p className="text-white/70">Odessa, Ontario</p><p className="text-white/50 text-sm">Loyalist Township</p></div>
                   <div><p className="text-white/30 text-xs uppercase tracking-widest mb-2">Hours</p><p className="text-white/70">Tue - Sat</p><p className="text-white/50 text-sm">By Appointment Only</p></div>
-                  <div><p className="text-white/30 text-xs uppercase tracking-widest mb-2">Contact</p><a href="mailto:emilycaird1983@gmail.com" className="text-white/70 hover:text-rose-300 transition-colors">emilycaird1983@gmail.com</a><p className="text-white/50 text-sm">(613) 555-0123</p></div>
+                  <div><p className="text-white/30 text-xs uppercase tracking-widest mb-2">Contact</p><a href="mailto:jordanch14@gmail.com" className="text-white/70 hover:text-rose-300 transition-colors">jordanch14@gmail.com</a><p className="text-white/50 text-sm">(613) 555-0123</p></div>
                 </div>
               </GlassCard>
             </div>
@@ -701,7 +701,7 @@
                       </div>
                       <div><label className="block text-white/40 text-xs uppercase tracking-widest mb-2">Additional Notes</label><textarea name="message" value={formData.message} onChange={handleInputChange} rows={3} className="w-full px-4 py-3 rounded-xl glass-input text-white text-sm resize-none" placeholder="Tell us about your hair goals..." /></div>
                       <button type="submit" className="w-full py-4 bg-gradient-to-r from-rose-500 to-amber-500 rounded-xl text-white text-sm uppercase tracking-widest hover:from-rose-400 hover:to-amber-400 transition-all duration-300 hover:shadow-lg hover:shadow-rose-500/25">Send Booking Request</button>
-                      <p className="text-white/30 text-xs text-center">Booking requests sent to emilycaird1983@gmail.com • We'll confirm within 24 hours</p>
+                      <p className="text-white/30 text-xs text-center">Booking requests sent to jordanch14@gmail.com • We'll confirm within 24 hours</p>
                     </form>
                   )}
                 </div>
