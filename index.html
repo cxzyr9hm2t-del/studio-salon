@@ -378,8 +378,7 @@
             <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
               <div className="font-display text-2xl font-light tracking-wider"><span className="gradient-text">STUDIO</span></div>
               <div className="hidden lg:flex items-center gap-8">
-                {[h, 'pricing', 'testimonials', 'instagram', 'about'].map((s) => (
-                  <NavLink key={s} href={`#${s}`} onClick={(e) => { e.preventDefault(); scrollToSection(s); }}>
+                {['home', 'services', 'color-formulas', 'pricing', 'testimonials', 'instagram', 'about'].map((s) => (                  <NavLink key={s} href={`#${s}`} onClick={(e) => { e.preventDefault(); scrollToSection(s); }}>
                     {s === 'instagram' ? 'Gallery' : s === 'testimonials' ? 'Reviews' : s}
                   </NavLink>
                 ))}
